@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="" method="">
+
+        <label for="name">Nombre:</label>        
+        <input type="text" placeholder="Ingresa tu nombre" name="name" id="name" maxlength="12" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Ingresa tu email" name="email" id="email" required>
+        <br>
+
+        <textarea name="message" id="message" placeholder="Ingresa tu mensaje"></textarea>
+        <br>
+
+        <label for="country">País:</label>
+        <select name="country" id="country">
+            <option value="1">Mexico</option>
+            <option value="2">Colombia</option>
+            <option value="3">Estados Unidos</option>
+        </select>
+        <br>
+
+        <input type="radio" name="gender" id="man" value="man"><label for="man">Hombre</label>
+        <input type="radio" name="gender" id="woman" value="woman"><label for="woman">Mujer</label>
+        <br>
+
+        <input type="checkbox" name="terms" id="terms"><label for="terms">Terminos y condiciones</label>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
