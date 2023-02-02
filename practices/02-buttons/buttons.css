@@ -1,0 +1,59 @@
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 20px 0px;
+}
+
+/* Estandar */
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #E2C2C6;
+    padding: 15px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+/* Tamaños */
+
+.small {
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.medium {
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.large {
+    padding: 20px 25px;
+    font-size: 18px;
+}
+
+.x-large {
+    padding: 25px 30px;
+    font-size: 20px;
+}
+
+/* Colores */
+
+.lavender { background: #b9929f; }
+.verry { background: #9c528b; }
+.violet { background: #610f7f; }
+.russian-violet { background: #2f0147; }
+
+/* Efectos */
+
+.b-radius {
+    border-radius: 50px;
+}
